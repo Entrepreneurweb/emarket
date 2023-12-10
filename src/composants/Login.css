@@ -1,0 +1,28 @@
+/* App.css */
+.navbar-container {
+    display: flex;
+    width: 100vw;
+    background-color: #87CEFA; /* Couleur de fond de la barre de navigation (bleu ciel) */
+    color: black; /* Couleur du texte */
+    font-weight: bold;
+  }
+  
+  .navbar-half {
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 18px; /* Taille de la police */
+    transition: background-color 0.3s ease; /* Transition de couleur au survol */
+  }
+  
+  .navbar-half:hover {
+    background-color: #B0E0E6; /* Couleur de fond au survol (bleu clair) */
+  }
+  
+  .navbar-half.selected {
+    background-color: black; /* Couleur de fond de l'onglet sélectionné */
+    color: #87CEFA; /* Couleur du texte de l'onglet sélectionné */
+    border: 2px solid #87CEFA; /* Bordure bleue */
+  }
+  
